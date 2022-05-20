@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="nc.itf.hr.kq.HRKQEJB">
+	<public>
+		<component priority="0" singleton="true" remote="true" tx="CMT" supportAlias="false">
+			<interface>nc.bs.pub.taskcenter.IBackgroundWorkPlugin</interface>
+			<implementation>nc.bs.hrkq.plugin.ImportAttendanceDataPlugin</implementation>
+		</component>
+	</public>
+</module>
